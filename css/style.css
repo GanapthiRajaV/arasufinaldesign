@@ -19,13 +19,10 @@ a{
 .sec-padd{
   padding: 90px 0;
 }
-/* MENU START HERE */
-
 .current{
   font-weight: 500;
-  color: rgba(33,28,25,1)!important;
+  color: rgb(255 194 157) !important;
 }
-
 header {
     position: absolute;
     top: 0;
@@ -107,8 +104,6 @@ header nav ul li a.active {
   }
 }
 
-
-
 .menuprogress {
   background: #0000004f;
   position: fixed;
@@ -151,18 +146,26 @@ header nav ul li a.active {
   color: #956c07  !important;
 }
 
-ul .sideline{
+.menuprogress ul .sideline{
   position: absolute;
   top: 10px;
-  left: 25px;
+  left: -25px;
   height: 0px;
   width: 4px;
   background: #514A46;
   border-radius: 20px;
-  left: -25px;
   z-index: 2;
 }
-
+/* .menuprogress ul .topline{
+  position: absolute;
+  top: 10px;
+  height: 5px;
+  width: 100px;
+  background: #d7550b;
+  border-radius: 20px;
+  left: -17px;
+  z-index: 2;
+} */
 
 .slider-section{
   background-image: url('../images/s1.jpg');

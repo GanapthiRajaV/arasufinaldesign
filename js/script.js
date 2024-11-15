@@ -32,9 +32,9 @@ $(document).ready(function () {
     var scroll = $(window).scrollTop();
     var doc = $(document).height();
     var win = $(window).height();
+
     var value =
-      (scroll / (doc - win)) *
-      90; /* this value will varie in function of your page height*/
+      (scroll / (doc - win)) *240; /* this value will varie in function of your page height*/
     $("ul .sideline").css("height", value + "%");
   });
   $("a.clickable").click(function () {
@@ -84,3 +84,5 @@ $(document).ready(function(){
     $('nav').toggleClass('active');
   })
 })
+
+
